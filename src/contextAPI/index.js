@@ -5,13 +5,14 @@ import UserManager from './UserManager';
 
 function App() {
     return (
-        <div>
+        <React.Fragment>
+            <h2>Context API</h2>
             <UserManager>
-                <h2>Dynamic context example</h2>
+                <h3>Dynamic context example</h3>
                 <Header />
                 <LoginForm />
             </UserManager>
-        </div>
+        </React.Fragment>
     );
 }
 

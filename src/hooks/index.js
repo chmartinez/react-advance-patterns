@@ -16,8 +16,9 @@ const App = () => {
   const submit = () => alert(`User info is: ${email.value} ${password.value}`);
   return (
     <React.Fragment>
+      <h2>Hooks</h2>
       <div>
-        <h2>A simple form</h2>
+        <h3>A simple form</h3>
         <form>
           <div>
             <input type="text" {...email} />
@@ -29,16 +30,16 @@ const App = () => {
         </form>
       </div>
       <div>
-        <h2>Window measurements</h2>
+        <h3>Window measurements</h3>
         <div>The width is {width}</div>
         <div>The height is {height}</div>
       </div>
       <div>
-        <h2>A toggle button</h2>
+        <h3>A toggle button</h3>
         <button onClick={toggle.inverse}>{buttonText}</button>
         {toggle.value && (
           <React.Fragment>
-            <h2>Counter solution</h2>
+            <h3>Counter solution</h3>
             <Counter />
           </React.Fragment>
         )}

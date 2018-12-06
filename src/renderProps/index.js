@@ -3,11 +3,15 @@ import TrackMouse from './TrackMouse';
 
 function App() {
     return (
-        <div>
-            <TrackMouse>
-                {({ x, y }) => (<div>Mouse position is {x} {y}</div>)}
-            </TrackMouse>
-        </div>
+        <React.Fragment>
+            <h2>Render Props</h2>
+            <div>
+                <h3>Tracking mouse position</h3>
+                <TrackMouse>
+                    {({ x, y }) => (<div>Mouse position is {x} {y}</div>)}
+                </TrackMouse>
+            </div>
+        </React.Fragment>
     );
 }
 
