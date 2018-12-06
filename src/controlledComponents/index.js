@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Tab from './Tab';
 import Tabs from './Tabs';
 
-function AppControlledComponentExercise() {
+function App() {
     const [tab, setTab] = useState('home');
     return (
         <React.Fragment>
@@ -32,4 +32,4 @@ function AppControlledComponentExercise() {
         </React.Fragment >
     )
 }
-export default AppControlledComponentExercise;
+export default App;

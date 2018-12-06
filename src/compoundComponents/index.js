@@ -2,7 +2,7 @@ import React from 'react';
 import Option from './Option';
 import Select from './Select';
 
-function AppCompoundComponentsExercise() {
+function App() {
     return (
         <div>
             <h3>Select and option</h3>
@@ -15,5 +15,5 @@ function AppCompoundComponentsExercise() {
     );
 }
 
-export default AppCompoundComponentsExercise;
+export default App;
 

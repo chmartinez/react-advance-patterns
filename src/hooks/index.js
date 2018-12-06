@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Counter from './Counter';
 import {
   useInput,
   useMeasureWindow,
   useToggle,
-} from './my-hooks';
+} from '../shared/my-hooks';
 
-const AppUseHooks = () => {
+const App = () => {
   const toggle = useToggle(false);
   const buttonText = toggle.value ? 'Hide Counter' : 'Show Counter';
   const { height, width } = useMeasureWindow();
@@ -47,6 +47,4 @@ const AppUseHooks = () => {
   )
 };
 
-
-// para el caso de usar el window hook, mostrar la X y la Y en donde sea
-export default AppUseHooks;
+export default App;

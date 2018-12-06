@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from './Header';
-import LoginForm from 'LoginForm';
-import UserManager from 'UserManager';
+import LoginForm from './LoginForm';
+import UserManager from './UserManager';
 
-function AppContextExercise() {
+function App() {
     return (
         <div>
             <UserManager>
@@ -15,4 +15,4 @@ function AppContextExercise() {
     );
 }
 
-export default AppContextExercise;
+export default App;

@@ -1,7 +1,7 @@
 import React from 'react';
 import TrackMouse from './TrackMouse';
 
-function AppRenderPropsExercise() {
+function App() {
     return (
         <div>
             <TrackMouse>
@@ -11,4 +11,4 @@ function AppRenderPropsExercise() {
     );
 }
 
-export default AppRenderPropsExercise;
+export default App;

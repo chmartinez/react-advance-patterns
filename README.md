@@ -10,5 +10,5 @@ This repo has some examples on how we could implement some of the most common Re
 
 **TODO**
 
-* Add some love to the page (in terms of styling)
-* Re-structure the code and make it modular (or at least cleaner)
+* [ ] Add some love to the page (in terms of styling)
+* [x] ~~Re-structure the code and make it modular (or at least cleaner)~~

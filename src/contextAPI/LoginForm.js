@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useInput } from './my-hooks';
+import { useInput } from '../shared/my-hooks';
 import { UserContext } from './UserManager';
 function LoginForm() {
     const { setUser } = useContext(UserContext);
