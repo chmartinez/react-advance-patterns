@@ -10,8 +10,8 @@ const Option = ({ children, value }) => {
         <div
             className="option"
             style={{
+                color: isActive ? value: 'white',
                 fontWeight: isActive ? 'bold' : 'normal',
-                color: isActive ? 'white' : value
             }}
             onClick={() => selectOption({ value, children })}
         >

@@ -1,6 +1,6 @@
 # Hooks
 
-* Hooks are going to be released next week!
+* Hooks are going to be released next year!
 * hooks are not conditional: no if-else when using them
 
 
@@ -102,7 +102,6 @@ Tabs is the parent. It's the one that uses the TabsManager/Context with a couple
 
 
 **Notes**
-* Finish the `Mouse render props challenge` at https://react-academy.netlify.com/lab/react-render-props/1-track-mouse
 * Leave feedback at https://kitze.typeform.com/to/LItBEd
 * Kitze recommends using render props for fetching data.
 * `useMemo` hook is a 'pseudo-replacement' for reselect
@@ -117,11 +116,6 @@ Tabs is the parent. It's the one that uses the TabsManager/Context with a couple
 ** it also has some examples around React Suspense. How to lazy load a component until the rest of your app has finished (check the 'Script' folder)
 
 * VS Code: look for a Presentations widget. It helps when presenting the code.
-
-* Name: Jaric, from Ukraine
-** check the bundle size of gears.
-** question for Rubén: how are we going to manage the bundle size for Gears? What could be a good solution (in terms of integration and bundle performance) when we have native apps that uses two gears components? What about versioning?
-
 
 
 
