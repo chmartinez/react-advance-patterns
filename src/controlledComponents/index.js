@@ -5,14 +5,15 @@ import Tab from '../shared/Tab';
 function App() {
     return (
         <React.Fragment>
-            <h2>Controlled Components</h2>
-            <span>Actually, the main menu is an example of controlled components</span>
-            <h3>Uncontrolled components</h3>
-            <Tabs initialValue="second">
-                <Tab value="first"> First </Tab>
-                <Tab value="second"> Second </Tab>
-                <Tab value="third"> Third </Tab>
-            </Tabs>
+            <h2>Controlled & Uncontrolled components</h2>
+            <section>
+                <h3>Uncontrolled</h3>
+                <Tabs initialValue="second">
+                    <Tab value="first"> First </Tab>
+                    <Tab value="second"> Second </Tab>
+                    <Tab value="third"> Third </Tab>
+                </Tabs>
+            </section>
         </React.Fragment>
     );
 }
